@@ -1,0 +1,49 @@
+.container {
+  margin: auto;
+  width: 40vw;
+  height: 40vw;
+  background: url(clock.png) no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #b34dcc;
+}
+
+#hour,
+#minute,
+#second {
+  position: absolute;
+  border-radius: 10px;
+  transform-origin: bottom;
+}
+
+#hour {
+  width: 1%;
+  height: 35%;
+  top: 14%;
+  left: 49%;
+  background-color: rgb(5, 5, 107);
+  opacity: 0.8;
+}
+
+#minute {
+    width: 1%;
+    height: 40%;
+    top: 10%;
+    left: 49.1%;
+    background-color: red;
+    opacity: 0.7;
+}
+
+#second {
+    width: 1%;
+    height: 45%;
+    top: 6%;
+    left: 49.3%;
+    background-color: blueviolet;
+    opacity: 0.6;
+}
